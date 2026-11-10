@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Syntaxwear</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <a class="header__logo" href="/" aria-label="Syntaxwear - início">Syntaxwear</a>
+
+        <nav class="header__navigation" aria-label="Navegação principal">
+            <ul class="header__navigation-list">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Destaque principal">
+            <h1 class="hero__title">Destaque principal</h1>
+        </section>
+
+        <section class="featured-products" aria-label="Produtos em destaque">
+            <h2 class="featured-products__title">Produtos em destaque</h2>
+            <ul class="featured-products__list" aria-label="Lista de produtos em destaque"></ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__contact" aria-label="Contato">
+            <h2 class="footer__contact-title">Contato</h2>
+            <address class="footer__address"></address>
+        </section>
+
+        <nav class="footer__navigation" aria-label="Links do rodapé">
+            <ul class="footer__navigation-list">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>
